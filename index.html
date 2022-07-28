@@ -4,16 +4,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+
     <!--Title of Webpage-->
     <title>The Nature Geek</title>
     <!--CSS stylesheet linked here-->
     <link rel="stylesheet" href="./assets/css/foundation.css">
     <link rel="stylesheet" href="./assets/css/app.css">
 
+    <script src="./assets/Js/script.js"></script> 
+
 </head>
 
 
 <body>
+
+
+    
     <!--Header Starts here-->
     <header>
         <!--Name of Website-->
@@ -143,6 +151,7 @@
             <p>
                 "Manatees live in marine, brackish and freshwater systems in coastal and riverine areas throughout their range. Preferred habitats include areas near the shore featuring underwater vegetation like seagrass and eelgrass. They feed along grass bed margins with access to deep water channels, where they flee when threatened. Florida manatees can be found throughout Florida for most of the year. However, they cannot tolerate temperatures below 68 degrees Fahrenheit for extended periods of time, and during the winter months these cold temperatures keep the population concentrated in peninsular Florida. Many manatees rely on the warm water from natural springs and power plant outfalls.
 
+
                 During the summer manatees expand their range, and on rare occasions are seen as far north as Massachusetts on the Atlantic coast and as far west as Texas on the Gulf coast. Manatees may travel hundreds of miles during a year’s time, preferring to travel along channels and shorelines." - US Fish and Wildlife
             </p>
         </div>
@@ -245,8 +254,131 @@ A cousin of the alligator, the American crocodile, is very rare in the U.S. and 
 
     <!--Javascript sheet linked here-->
     <script src="./assets/Js/script.js"> 
+
+    <!--Header Starts here-->
+    <header>
+        <!--Name of Website-->
+        <h1>
+            <a href="/">The Nature Geek</a>
+        </h1>
+    <!--Navigation starts here-->
+        <nav>
+            <!--un ordered list items for navigation items-->
+
+            <div class="menu-bar">
+            <ul>
+
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#">Counties</a></li>
+                <div class="sub-menu-1">
+                    <ul>
+                        <li><a href="#">Monroe County</a></li>
+                        <li><a href="#">Miami-Dade County</a></li>
+                        <li><a href="#">Manatee County</a></li>
+                        <li><a href="#">Brevard County</a></li>
+                        <li><a href="#">Marion County</a></li>
+
+
+                    </ul></div>
+                <li><a href="#">Wildlife</a></li>
+                <li><a href="#">Parks</a></li>
+                <li><a href="#">FAQ</a></li>
+            </ul>
+            </div>
+        </nav>
+    <!--Navigation ends here-->
+
+    </header>
+    <!--Header ends here-->
+
+    <!--CTA Begins here-->
+    <section class="hero">
+  
+        <div class="hero-form">
+          <h3>Join The Club</h3>
+          <p>In this forum you will be able to join our newsletter and receive information about the different parks in the 
+            different counties in the state of Florida. You will also receive exclusive information of the wild life in those parks!</p>
+          <form>
+            <label for="name">Your Name</label>
+            <input type="text" placeholder="Your Name" id="name" name="name" class="form-input" />
+            <label for="email">Your Email</label>
+            <input type="email" placeholder="Email Address" id="email" name="email" class="form-input" />
+            <label for="phone">Phone Number</label>
+            <input type="tel" placeholder="Phone Number" name="phone" id="phone" class="form-input" />
+            <label for="County">Your County</label>
+            <input type="text" placeholder="Your County" id="County" name="County" class="form-input" />
+            <label for="Favorite Season">Favorite Season</label>
+            <input type="text" placeholder="Favorite Season" id="Season" name="Season" class="form-input" />
+            <p>
+              <span class="checkbox-wrapper">
+                <input type="checkbox" name="checkpoint1" id="checkbox" />
+                <label for="checkbox">Sign Me Up!</label>
+              </span>
+            </p>
+            <button type="submit">
+              Make Me a Geek!
+            </button>
+          </form>
+        </div>
+      </section>
+      <!--CTA ends here-->
+
+    <!--Each of these sections will be linked to the nav elements above.-->
+    <section id="counties" class="section-title">
+        <h2>
+        Counties
+        </h2>
+    </section>
+
+    <section id="wildlife" class="section-title">
+        <h2>
+            Wildlife
+        </h2>
+    </section>
     
-    </script> 
+
+    <div id="map"></div>
+
+
+    <section id="parks" class="section-title">
+        <h2>
+        Parks
+        </h2>
+        <label for="parks">Select a Park:
+        </label>
+        <select name="parks" id="parks">
+            <option value="dry-tortugas-national-park">Dry Tortugas National Park</option>
+            <option value="everglades-national-park">Everglades National Park</option>
+            <option value="desoto-national-memorial">De Soto National Memorial</option>
+            <option value="fort-matanzas-national-monument">Fort Matanzas National Monument</option>
+            <option value="ocala-national-forest">Ocala National Forest</option>
+            <option value="maritime-hammock-sanctuary">Maritime Hammock Sanctuary</option>
+            <option value="canaveral-national-seashore">Canaveral National Seashore</option>
+            <option value="key-west-marine-park">Key West Marine Park</option>
+            <option value="havens-cove-park">Havens Cove Park</option>
+
+    </section>
+
+    <section id="faq" class="section-title">
+        <h2>
+            FAQ
+        </h2>
+    </section>
+    <!--end sections-->
+
+    <!--Footer section starts-->
+    <footer>
+        <h3>
+            Created by Team Snow Leopards.
+        </h3>
+    </footer>
+    <!--footer section ends-->
+
+    <!--Javascript sheet linked here-->
+    
+    <script async
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDO450Di-7pFf6SS-TZO3RSEqoqve4WWM0&callback=initMap">
+</script>
 </body>
 </html>
 
