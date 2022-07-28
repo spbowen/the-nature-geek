@@ -4,11 +4,135 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <!--CSS stylesheet linked here-->
+    <link rel="stylesheet" href="/assets/css/stylesheet.css">
+    <!--Title of Webpage-->
+    <title>The Nature Geek</title>
 </head>
-<body>
-    
 
+
+<body>
+    <!--Header Starts here-->
+    <header>
+        <!--Name of Website-->
+        <h1>
+            The Nature Geek
+        </h1>
+    <!--Navigation starts here-->
+        <nav>
+            <!--un ordered list items for navigation items-->
+            <div class="menu-bar">
+            <ul>
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#">Counties</a></li>
+                <div class="sub-menu-1">
+                    <ul>
+                        <li><a href="#">Monroe County</a></li>
+                        <li><a href="#">Miami-Dade County</a></li>
+                        <li><a href="#">Manatee County</a></li>
+                        <li><a href="#">Brevard County</a></li>
+                        <li><a href="#">Marion County</a></li>
+                        <li><a href="#">Taylor County</a></li>
+
+                    </ul></div>
+                <li><a href="#">Wildlife</a></li>
+                <li><a href="#">Parks</a></li>
+                <li><a href="#">FAQ</a></li>
+            </ul>
+            </div>
+        </nav>
+    <!--Navigation ends here-->
+
+    </header>
+    <!--Header ends here-->
+    <section class="hero">
+        <div class="hero-cta">
+          <h2>Join The Club.</h2>
+          <p>
+            In this forum you will be able to join our newsletter and receive information about the different parks in the 
+            different counties in the state of Florida. You will also receive exclusive information of the wild life in those parks!
+          </p>
+        </div>
+  
+        <div class="hero-form">
+          <h3>Join Today</h3>
+          <p>Fill out this form and receive exclusive news.</p>
+          <form>
+            <label for="name">Your Name</label>
+            <input type="text" placeholder="Your Name" id="name" name="name" class="form-input" />
+            <label for="email">Your Email</label>
+            <input type="email" placeholder="Email Address" id="email" name="email" class="form-input" />
+            <label for="phone">Phone Number</label>
+            <input type="tel" placeholder="Phone Number" name="phone" id="phone" class="form-input" />
+            <label for="County">Your County</label>
+            <input type="text" placeholder="Your County" id="County" name="County" class="form-input" />
+            <label for="Favorite Season">Favorite Season</label>
+            <input type="text" placeholder="Favorite Season" id="Season" name="Season" class="form-input" />
+            <p>
+              <span class="checkbox-wrapper">
+                <input type="checkbox" name="checkpoint1" id="checkbox" />
+                <label for="checkbox">Sign Me Up!</label>
+              </span>
+            </p>
+            <button type="submit">
+              Make Me a Geek!
+            </button>
+          </form>
+        </div>
+      </section>
+    </header>
+
+    <section>
+        <!--CTA AND INTERACTIVE MAP WILL GO HERE-->
+    </section>
+
+    <!--Each of these sections will be linked to the nav elements above.-->
+    <section>
+        <h2>
+        Counties
+        </h2>
+    </section>
+
+    <section>
+        <h2>
+            Wildlife
+        </h2>
+    </section>
+
+    <section>
+        <h2>
+        Parks
+        </h2>
+        <label for="parks">Select a Park:
+        </label>
+        <select name="parks" id="parks">
+            <option value="dry-tortugas-national-park">Dry Tortugas National Park</option>
+            <option value="everglades-national-park">Everglades National Park</option>
+            <option value="desoto-national-memorial">De Soto National Memorial</option>
+            <option value="fort-matanzas-national-monument">Fort Matanzas National Monument</option>
+            <option value="ocala-national-forest">Ocala National Forest</option>
+            <option value="maritime-hammock-sanctuary">Maritime Hammock Sanctuary</option>
+            <option value="canaveral-national-seashore">Canaveral National Seashore</option>
+            <option value="key-west-marine-park">Key West Marine Park</option>
+            <option value="havens-cove-park">Havens Cove Park</option>
+    </section>
+
+    <section>
+        <h2>
+            FAQ
+        </h2>
+    </section>
+    <!--end sections-->
+
+    <!--Footer section starts-->
+    <footer>
+        <h3>
+            Created by Team Snow Leopards.
+        </h3>
+    </footer>
+    <!--footer section ends-->
+
+    <!--Javascript sheet linked here-->
     <script src="./assets/Js/script.js"> 
     
     </script> 
