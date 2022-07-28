@@ -4,10 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--CSS stylesheet linked here-->
-    <link rel="stylesheet" href="/assets/css/stylesheet.css">
     <!--Title of Webpage-->
     <title>The Nature Geek</title>
+    <!--CSS stylesheet linked here-->
+    <link rel="stylesheet" href="./assets/css/foundation.css">
+    <link rel="stylesheet" href="./assets/css/app.css">
+
 </head>
 
 
@@ -16,7 +18,7 @@
     <header>
         <!--Name of Website-->
         <h1>
-            The Nature Geek
+            <a href="/">The Nature Geek</a>
         </h1>
     <!--Navigation starts here-->
         <nav>
@@ -24,6 +26,7 @@
 
             <div class="menu-bar">
             <ul>
+
                 <li class="active"><a href="#">Home</a></li>
                 <li><a href="#">Counties</a></li>
                 <div class="sub-menu-1">
@@ -33,7 +36,7 @@
                         <li><a href="#">Manatee County</a></li>
                         <li><a href="#">Brevard County</a></li>
                         <li><a href="#">Marion County</a></li>
-                        <li><a href="#">Taylor County</a></li>
+
 
                     </ul></div>
                 <li><a href="#">Wildlife</a></li>
@@ -46,18 +49,14 @@
 
     </header>
     <!--Header ends here-->
+
+    <!--CTA Begins here-->
     <section class="hero">
-        <div class="hero-cta">
-          <h2>Join The Club.</h2>
-          <p>
-            In this forum you will be able to join our newsletter and receive information about the different parks in the 
-            different counties in the state of Florida. You will also receive exclusive information of the wild life in those parks!
-          </p>
-        </div>
   
         <div class="hero-form">
-          <h3>Join Today</h3>
-          <p>Fill out this form and receive exclusive news.</p>
+          <h3>Join The Club</h3>
+          <p>In this forum you will be able to join our newsletter and receive information about the different parks in the 
+            different counties in the state of Florida. You will also receive exclusive information of the wild life in those parks!</p>
           <form>
             <label for="name">Your Name</label>
             <input type="text" placeholder="Your Name" id="name" name="name" class="form-input" />
@@ -81,26 +80,22 @@
           </form>
         </div>
       </section>
-    </header>
-
-    <section>
-        <!--CTA AND INTERACTIVE MAP WILL GO HERE-->
-    </section>
+      <!--CTA ends here-->
 
     <!--Each of these sections will be linked to the nav elements above.-->
-    <section>
+    <section id="counties" class="section-title">
         <h2>
         Counties
         </h2>
     </section>
 
-    <section>
+    <section id="wildlife" class="section-title">
         <h2>
             Wildlife
         </h2>
     </section>
 
-    <section>
+    <section id="parks" class="section-title">
         <h2>
         Parks
         </h2>
@@ -119,7 +114,7 @@
 
     </section>
 
-    <section>
+    <section id="faq" class="section-title">
         <h2>
             FAQ
         </h2>
@@ -140,3 +135,4 @@
     </script> 
 </body>
 </html>
+
