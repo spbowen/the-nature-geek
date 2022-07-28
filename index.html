@@ -4,69 +4,102 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--CSS stylesheet linked here-->
-    <link rel="stylesheet" href="/assets/css/stylesheet.css">
     <!--Title of Webpage-->
     <title>The Nature Geek</title>
+    <!--CSS stylesheet linked here-->
+    <link rel="stylesheet" href="./assets/css/foundation.css">
+    <link rel="stylesheet" href="./assets/css/app.css">
+
 </head>
 
 
 <body>
-
-
     <!--Header Starts here-->
     <header>
         <!--Name of Website-->
         <h1>
-            The Nature Geek
+            <a href="/">The Nature Geek</a>
         </h1>
     <!--Navigation starts here-->
         <nav>
             <!--un ordered list items for navigation items-->
             <ul>
+
+                <!--list elements-->
                 <li>
-                    Counties
-                </l1>
-                <li>
-                    Wildlife
+                    <!--Anchor element-->
+                    <!--These particular attributes allows us to jump to a certain point on the page-->
+                    <a href="#counties">Counties</a>
                 </li>
                 <li>
-                    Parks
+                    <a href="#wildlife">Wildlife</a>
                 </li>
                 <li>
-                    FAQ
+                    <a href="#parks">Parks</a>
+                </li>
+                <li>
+                    <a href="#faq">FAQ</a>
                 </li>
 
             </ul>
         </nav>
     <!--Navigation ends here-->
+
     </header>
     <!--Header ends here-->
 
-    <section>
-        <!--CTA AND INTERACTIVE MAP WILL GO HERE-->
-    </section>
+    <!--CTA Begins here-->
+    <section class="hero">
+  
+        <div class="hero-form">
+          <h3>Join The Club</h3>
+          <p>In this forum you will be able to join our newsletter and receive information about the different parks in the 
+            different counties in the state of Florida. You will also receive exclusive information of the wild life in those parks!</p>
+          <form>
+            <label for="name">Your Name</label>
+            <input type="text" placeholder="Your Name" id="name" name="name" class="form-input" />
+            <label for="email">Your Email</label>
+            <input type="email" placeholder="Email Address" id="email" name="email" class="form-input" />
+            <label for="phone">Phone Number</label>
+            <input type="tel" placeholder="Phone Number" name="phone" id="phone" class="form-input" />
+            <label for="County">Your County</label>
+            <input type="text" placeholder="Your County" id="County" name="County" class="form-input" />
+            <label for="Favorite Season">Favorite Season</label>
+            <input type="text" placeholder="Favorite Season" id="Season" name="Season" class="form-input" />
+            <p>
+              <span class="checkbox-wrapper">
+                <input type="checkbox" name="checkpoint1" id="checkbox" />
+                <label for="checkbox">Sign Me Up!</label>
+              </span>
+            </p>
+            <button type="submit">
+              Make Me a Geek!
+            </button>
+          </form>
+        </div>
+      </section>
+      <!--CTA ends here-->
 
     <!--Each of these sections will be linked to the nav elements above.-->
-    <section>
+    <section id="counties" class="section-title">
         <h2>
             Counties
         </h2>
     </section>
 
-    <section>
+    <section id="wildlife" class="section-title">
         <h2>
             Wildlife
         </h2>
     </section>
 
-    <section>
+    <section id="parks" class="section-title">
         <h2>
             Parks
         </h2>
     </section>
 
-    <section>
+    <section id="faq" class="section-title">
         <h2>
             FAQ
         </h2>
@@ -87,3 +120,4 @@
     </script> 
 </body>
 </html>
+
