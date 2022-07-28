@@ -23,5 +23,16 @@
 		Steven: n/a
 		Joseph: HTML, Reseach, and Javascript
     
-    
-    
+## Deployed Link in GitHub
+
+https://spbowen.github.io/the-nature-geek/
+
+## Screenshots
+![Screen Shot 2022-07-28 at 6 17 21 PM](https://user-images.githubusercontent.com/106043324/181646654-71a394ed-938c-4083-aa78-c9484b6e10d8.png)
+![Screen Shot 2022-07-28 at 6 17 48 PM](https://user-images.githubusercontent.com/106043324/181646708-fa697e46-86fd-4baf-a20b-0f6bc1b9ad96.png)
+
+## Techologies Used
+* HTML
+* CSS (including Foundations Framework CSS: https://get.foundation/)
+* APIs
+* Javascript
