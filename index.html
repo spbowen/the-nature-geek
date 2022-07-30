@@ -13,7 +13,8 @@
     <link rel="stylesheet" href="./assets/css/foundation.css">
     <link rel="stylesheet" href="./assets/css/app.css">
 
-    <script src="./assets/Js/script.js"></script> 
+    <script src="./assets/Js/script.js"></script>
+
 
 </head>
 
@@ -30,28 +31,24 @@
         </h1>
     <!--Navigation starts here-->
         <nav>
-            <!--un ordered list items for navigation items-->
-
-            <div class="menu-bar">
-            <ul>
-                <li><a href="#counties">Counties</a></li>
-
-                <div class="sub-menu-1">
-                    <ul>
-                        <li><a href="#">Monroe County</a></li>
-                        <li><a href="#">Miami-Dade County</a></li>
-                        <li><a href="#">Manatee County</a></li>
-                        <li><a href="#">Brevard County</a></li>
-                        <li><a href="#">Marion County</a></li>
-
-                    </ul>
+                    <!--Button creation for dropdown menu-->
+                    <div class="dropdown">
+                        <button class="dropbtn">Counties
+                            <i class="fa fa-caret-down"></i></button>
+                    
+                    <div class="sub-menu">
+                        <a href="#monroe">Monroe County</a>
+                        <a href="#miamidade">Miami-Dade County</a>
+                        <a href="#manatee">Manatee County</a>
+                        <a href="#brevard">Brevard County</a>
+                        <a href="#marion">Marion County</a>
+                    </div>
                 </div>
-                
-                <li><a href="#wildlife">Wildlife</a></li>
-                <li><a href="#parks">Parks</a></li>
-                <li><a href="#faq">FAQ</a></li>
-            </ul>
-            </div>
+            <!--remaining nav bar links-->
+            <a href="#wildlife">Wildlife</a>
+            <a href="#parks">Parks</a>
+            <a href="#faq">FAQ</a>
+            
         </nav>
     <!--Navigation ends here-->
 
@@ -242,5 +239,6 @@
         </h3>
     </footer>
     <!--footer section ends-->
-
+</body>
+</html>
    <!--============================================================= END OF HTML =======================================================================-->
