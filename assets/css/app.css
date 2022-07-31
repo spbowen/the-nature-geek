@@ -27,13 +27,21 @@ header h1 {
 header a {
     text-decoration: none;
     color: #D2E459;
-    margin: 0px 10px;
+    margin: 10px 10px;
 }
 
 /* adds styling to all <nav> elements within the <header> section only */
 header nav {
     float: right;
     
+}
+
+.hero {
+    background-image: url("../images/Rainbow\ River\,\ Florida.jpeg");
+    height: 800px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
 }
 
 
@@ -94,7 +102,6 @@ header nav a:hover, .dropdown:hover .dropbtn{
 
 footer {
     background: #D2E459;
-    width: 100%;
     padding: 40px 35px;
 }
 
@@ -110,22 +117,15 @@ section {
     padding: 10px;
 }
 
-.hero {
-    height: 800px;
-    background-size: cover;
-    background-position: center;
-    position: relative;
-}
 
 .hero-form {
-    border: 3px solid #37570d;
+    border: 3px dotted #37570d;
     background-color: #D2E459;
-    padding: 20px;
-    width: 500px;
+    padding: 10px 35px;
     color: #597C2B;
-    bottom: 120px;
-    position:static;
-    right: 140px;
+    margin: 50px;
+    position: sticky;
+    width: 500px;
   }
   
   .hero-form p {
